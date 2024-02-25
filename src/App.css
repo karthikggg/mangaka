@@ -1,38 +1,147 @@
-.App {
-  text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+*{
+  margin: 0;
+  padding: 0;
 }
+/* navbar css*/
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.navbar {
+  background-color: #070F2B;
   display: flex;
-  flex-direction: column;
+  justify-content: space-around;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+.logo-section{
+  display: flex;
+  color: rgb(69, 160, 69);
+  align-items: center;
+  cursor: pointer;
+  padding: 1rem 0;
+}
+.logo-section img{
+  width: 2.3rem;
+}
+.logo-section h1{
+  align-items: center;
+  font: 1.5em sans-serif;
+}
+.login{
   color: white;
+  font-weight: 500;
+  font-size: 1rem;
+  cursor: pointer;
+}
+.login-explore-section{
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  
+}
+.explore{
+  background-color: transparent;
+  box-shadow: none;
+  color: rgb(248, 248, 248);
+  font-weight: 500;
+  font-size: 1rem;
+  border: solid 2px rgb(211, 211, 211);
+  padding: .5rem 1.7rem;
+  align-items: center;
+  cursor: pointer;
 }
 
-.App-link {
-  color: #61dafb;
+
+.section-1{
+  background-image: url('../public/chibi-luffy.png');
+  background-size:  cover ;
+  background-repeat: no-repeat ;
+  
+  
+  
+}
+.home-text{
+  
+  display: grid;
+  color: white;
+  justify-content: space-around;
+  align-items: center;
+  padding: 17vw;
+  
+}
+.home-text #container{
+  padding: 2rem 0;
+}
+.home-text p{
+  padding: 1rem 0;
+}
+/* first watch */
+
+.first-watch{
+  display: grid;
+  background-color: #070F2B;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 0;
+  padding-bottom: 9rem;
+}
+.first-watch h1, p{
+  display: flex;
+  justify-content: center;
+  padding-bottom: 4rem ;
+}
+.first-watch h1{
+  font-size: 3rem;
+  padding-bottom: .5rem;
+}
+.first-watch img{
+  width: 140px;
+  height: 220px;
+  object-fit: cover;
+}
+.single-slide {
+  display: grid;
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/*premuim*/
+
+.premium{
+  background-color: #070F2B;
+  display: grid;
+  justify-content: center;
+  color: white;
+  padding: 0 3rem;
 }
+.premium img{
+}
+.premium h1{
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+.features{
+  display: flex;
+}
+ul{
+  list-style: none;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 5rem;
+  justify-content: center;
+}
+.spec {
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ gap: 1rem;
+ margin: 1rem;
+ max-width: 14rem;
+}
+.spec p{
+  display: grid;
+  text-align: center;
+
+}
+
+
+
