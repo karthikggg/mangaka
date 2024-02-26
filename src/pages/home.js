@@ -1,10 +1,11 @@
 import React from 'react'
-import { NAVBAR } from './navbar'
-import { FIRSTTOWATCH } from './firsttowatch';
-import './Style.scss';
-import { PREMIUM } from './premium';
-import { OFFLINEVIEWING } from './offlineviewing';
-import { QUESTIONS } from './questions';
+import { NAVBAR } from '../components/navbar'
+import { FIRSTTOWATCH } from '../components/firsttowatch';
+import '../components/Style.scss'
+import { PREMIUM } from '../components/premium';
+import { OFFLINEVIEWING } from '../components/offlineviewing';
+import { QUESTIONS } from '../components/questions';
+import { Link } from 'react-router-dom';
 
 
 export const HOME = ({mangadata}) => {
@@ -20,7 +21,7 @@ export const HOME = ({mangadata}) => {
                     <span class="circle" aria-hidden="true">
                       <span class="icon arrow"></span>
                     </span>
-                    <span class="button-text">Explore</span>
+                    <Link to={'/explore'}><span class="button-text">Explore</span></Link>
                   </button>
                 </div>
             </div>
