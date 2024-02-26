@@ -93,14 +93,21 @@
   font-size: 3rem;
   padding-bottom: .5rem;
 }
-.first-watch img{
+.single-slide img{
   width: 140px;
   height: 220px;
   object-fit: cover;
 }
-.single-slide {
+.single-slide{
   display: grid;
+  background-color: black;
+  justify-content: center;
 
+  
+
+}
+.slide{
+  
 }
 
 /*premuim*/
@@ -118,30 +125,75 @@
   color: white;
   display: flex;
   justify-content: center;
+  padding-bottom: 5rem;
 }
 .features{
   display: flex;
 }
-ul{
-  list-style: none;
+
+.features ul{
   display: grid;
   grid-template-columns: 1fr 1fr;
-  padding: 5rem;
-  justify-content: center;
+  gap: 1rem;
 }
-.spec {
- display: flex;
- align-items: center;
- justify-content: center;
- gap: 1rem;
- margin: 1rem;
- max-width: 14rem;
-}
-.spec p{
+.center  {
   display: grid;
+  align-items:flex-start;
+  justify-content: center;
+  max-width: 15rem;
+  
+  width: 15rem;
   text-align: center;
 
+ 
+}
+.center .icon{
+  
+  display: flex;
+  justify-self: center;
+  padding: 1rem;
+  
 }
 
 
+.features ul li{
+  
+  display: flex;
+  justify-content: center;
+ 
+}
+
+
+
+
+/* offline viewing */
+
+.offline{
+  background-image: url('../public/manga posters/offline.jpg');
+  background-size: cover;
+  height: 100vh;
+
+  color: rgb(0, 0, 0);
+  display: grid;
+  justify-content:flex-end;
+  align-items: center;
+
+ 
+}
+.offlinetext{
+  max-width: 30rem;
+  padding-right: 15rem;
+  padding-bottom: 5rem;
+  
+  
+
+}
+.offlinetext h1{
+  font-size: 3rem;
+  padding-bottom: 1.5rem;
+}
+.offlinetext p{
+  font-size: 1.3rem;
+  font-weight: 500;
+}
 

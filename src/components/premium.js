@@ -15,18 +15,16 @@ export const PREMIUM = () => {
             <div >
                 <ul >
                     <li className="spec">
-                        <div>
-                            <ImClock className='icon' color='cyan' size={'3rem'} style={{justifyContent:'center'}} />
-                            <p>New chapter shortly after airing in japan</p></div>
+                        <div className='center'><ImClock className='icon' color='cyan' size={'4rem'}/><p>New chapter shortly after airing in japan</p></div>
                     </li>
                     <li className="spec">
-                        <div><LiaExclamationSolid className='icon' color='orange' size={'5rem'} /><p>Ad-free animie</p></div>
+                        <div className='center'><LiaExclamationSolid className='icon' color='orange' size={'5rem'} /><p>Ad-free animie</p></div>
+                    </li>
+                    <li className="spec" >
+                        <div className='center'><PiAirplaneTiltBold className='icon' color='yellow' size={'3.5rem'} /><p>Offline Viewing</p></div>
                     </li>
                     <li className="spec">
-                        <div><PiAirplaneTiltBold className='icon' color='yellow' size={'3.5rem'} /><p>Offline Viewing</p></div>
-                    </li>
-                    <li className="spec">
-                        <div><MdOutlineDevices className='icon' color='grey' size={'3.5rem'} /><p>Simuntaneously stream on multiple devices</p></div>
+                        <div className='center'><MdOutlineDevices className='icon' color='grey' size={'3.5rem'} /><p>Simuntaneously stream on multiple devices</p></div>
                     </li>
                     
                 </ul>

@@ -3,6 +3,10 @@ import { NAVBAR } from './navbar'
 import { FIRSTTOWATCH } from './firsttowatch';
 import './Style.scss';
 import { PREMIUM } from './premium';
+import { OFFLINEVIEWING } from './offlineviewing';
+import { QUESTIONS } from './questions';
+
+
 export const HOME = ({mangadata}) => {
   return (
     <div>
@@ -24,6 +28,9 @@ export const HOME = ({mangadata}) => {
         </div>
         <div className="section-2"><FIRSTTOWATCH mangadata={mangadata} /></div>
         <PREMIUM />
+        <OFFLINEVIEWING/>
+        <QUESTIONS />
+        
 
 
     </div>
