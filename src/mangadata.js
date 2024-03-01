@@ -44,7 +44,40 @@ const MANGADATA = [
         ]
     },
     {
-        id:'4',
+        id:'5',
+        manga_name : 'Attack On Titan',
+        img : "./manga posters/aot.jpg",
+        chapters: [
+            {
+                id:'1',
+                path:''
+            }
+        ]
+    },
+    {
+        id:'6',
+        manga_name : 'One Piece',
+        img : "./manga posters/luffy.jpg",
+        chapters: [
+            {
+                id:'1',
+                path:''
+            }
+        ]
+    },
+    {
+        id:'7',
+        manga_name : 'One punch man',
+        img : "./manga posters/onepunchman.png",
+        chapters: [
+            {
+                id:'1',
+                path:''
+            }
+        ]
+    },
+    {
+        id:'8',
         manga_name : 'Death Note',
         img : "./manga posters/Death Note.jpg",
         chapters: [
@@ -55,7 +88,40 @@ const MANGADATA = [
         ]
     },
     {
-        id:'4',
+        id:'9',
+        manga_name : 'Attack On Titan',
+        img : "./manga posters/aot.jpg",
+        chapters: [
+            {
+                id:'1',
+                path:''
+            }
+        ]
+    },
+    {
+        id:'10',
+        manga_name : 'One Piece',
+        img : "./manga posters/luffy.jpg",
+        chapters: [
+            {
+                id:'1',
+                path:''
+            }
+        ]
+    },
+    {
+        id:'11',
+        manga_name : 'One punch man',
+        img : "./manga posters/onepunchman.png",
+        chapters: [
+            {
+                id:'1',
+                path:''
+            }
+        ]
+    },
+    {
+        id:'12',
         manga_name : 'Death Note',
         img : "./manga posters/Death Note.jpg",
         chapters: [
@@ -66,7 +132,40 @@ const MANGADATA = [
         ]
     },
     {
-        id:'4',
+        id:'13',
+        manga_name : 'Attack On Titan',
+        img : "./manga posters/aot.jpg",
+        chapters: [
+            {
+                id:'1',
+                path:''
+            }
+        ]
+    },
+    {
+        id:'14',
+        manga_name : 'One Piece',
+        img : "./manga posters/luffy.jpg",
+        chapters: [
+            {
+                id:'1',
+                path:''
+            }
+        ]
+    },
+    {
+        id:'15',
+        manga_name : 'One punch man',
+        img : "./manga posters/onepunchman.png",
+        chapters: [
+            {
+                id:'1',
+                path:''
+            }
+        ]
+    },
+    {
+        id:'16',
         manga_name : 'Death Note',
         img : "./manga posters/Death Note.jpg",
         chapters: [
@@ -77,7 +176,128 @@ const MANGADATA = [
         ]
     },
     {
-        id:'4',
+        id:'17',
+        manga_name : 'Attack On Titan',
+        img : "./manga posters/aot.jpg",
+        chapters: [
+            {
+                id:'1',
+                path:''
+            }
+        ]
+    },
+    {
+        id:'18',
+        manga_name : 'One Piece',
+        img : "./manga posters/luffy.jpg",
+        chapters: [
+            {
+                id:'1',
+                path:''
+            }
+        ]
+    },
+    {
+        id:'19',
+        manga_name : 'One punch man',
+        img : "./manga posters/onepunchman.png",
+        chapters: [
+            {
+                id:'1',
+                path:''
+            }
+        ]
+    },
+    {
+        id:'20',
+        manga_name : 'Death Note',
+        img : "./manga posters/Death Note.jpg",
+        chapters: [
+            {
+                id:'1',
+                path:''
+            }
+        ]
+    },,
+    {
+        id:'21',
+        manga_name : 'Attack On Titan',
+        img : "./manga posters/aot.jpg",
+        chapters: [
+            {
+                id:'1',
+                path:''
+            }
+        ]
+    },
+    {
+        id:'22',
+        manga_name : 'One Piece',
+        img : "./manga posters/luffy.jpg",
+        chapters: [
+            {
+                id:'1',
+                path:''
+            }
+        ]
+    },
+    {
+        id:'23',
+        manga_name : 'One punch man',
+        img : "./manga posters/onepunchman.png",
+        chapters: [
+            {
+                id:'1',
+                path:''
+            }
+        ]
+    },
+    {
+        id:'24',
+        manga_name : 'Death Note',
+        img : "./manga posters/Death Note.jpg",
+        chapters: [
+            {
+                id:'1',
+                path:''
+            }
+        ]
+    },,
+    {
+        id:'25',
+        manga_name : 'Attack On Titan',
+        img : "./manga posters/aot.jpg",
+        chapters: [
+            {
+                id:'1',
+                path:''
+            }
+        ]
+    },
+    {
+        id:'26',
+        manga_name : 'One Piece',
+        img : "./manga posters/luffy.jpg",
+        chapters: [
+            {
+                id:'1',
+                path:''
+            }
+        ]
+    },
+    {
+        id:'27',
+        manga_name : 'One punch man',
+        img : "./manga posters/onepunchman.png",
+        chapters: [
+            {
+                id:'1',
+                path:''
+            }
+        ]
+    },
+    {
+        id:'28',
         manga_name : 'Death Note',
         img : "./manga posters/Death Note.jpg",
         chapters: [
@@ -87,17 +307,7 @@ const MANGADATA = [
             }
         ]
     },
-    {
-        id:'4',
-        manga_name : 'Death Note',
-        img : "./manga posters/Death Note.jpg",
-        chapters: [
-            {
-                id:'1',
-                path:''
-            }
-        ]
-    }
+    
 ]
 
 export default MANGADATA;

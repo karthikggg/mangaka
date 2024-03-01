@@ -3,12 +3,12 @@ import { BANNER } from '../components/banner'
 import {NAVBAR} from '../components/navbar'
 import { ALLMANGAPANEL } from '../components/allmangapanel'
 
-export const EXPLORE = () => {
+export const EXPLORE = ({mangadata, targetmanga}) => {
   return (
     <div>
         <NAVBAR />
         <BANNER />
-        <ALLMANGAPANEL />
+        <ALLMANGAPANEL mangadata={mangadata} targetmanga={targetmanga} />
         
     </div>
   )

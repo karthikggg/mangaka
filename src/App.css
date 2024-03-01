@@ -100,7 +100,7 @@
 }
 .single-slide{
   display: grid;
-  background-color: black;
+  background-color: #070F2B;
   justify-content: center;
 
   
@@ -266,4 +266,52 @@
  #bottone1:active {
   transform: scale(0.97);
   box-shadow: 7px 5px 56px -10px #C3D900;
+ }
+
+
+ /* all manga panel */
+
+ .section{
+  background-color: #070F2B;
+  color: white;
+  
+  display: grid;
+ }
+ .section p{
+  justify-content:flex-start ;
+  padding-bottom: 0;
+  
+
+ }
+.single-manga p{
+  padding: 0 0 .5rem 0;
+}
+ .section span{
+  color: #888888;
+ }
+ .single-manga img{
+  width: 15rem;
+  height: 23rem;
+  object-fit: cover;
+ }
+ .single-manga{
+  padding-bottom: 4rem;
+ }
+ .manga-map{
+  width: 90vw;
+  margin-top: 4%;
+  border-radius: 3px;
+  
+  display: grid;
+
+
+  /* Use  display property as grid*/
+  gap:1rem;
+  grid-template-columns: repeat(
+      auto-fill, minmax(250px, 1fr));
+
+ }
+ .manga-grid{
+  display: flex;
+  justify-content: center;
  }
