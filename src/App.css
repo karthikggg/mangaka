@@ -251,7 +251,7 @@
   padding-bottom: 16px;
   padding-top: 16px;
   border-radius: 9px;
-  background: #d5f365;
+  background: #000000;
   border: none;
   font-family: inherit;
   text-align: center;
@@ -314,4 +314,118 @@
  .manga-grid{
   display: flex;
   justify-content: center;
+ }
+
+ /* about manga image */
+
+ .bg-image {
+  position: absolute;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  display: block;
+  height:40rem;
+  width: 100%;
+  -webkit-filter: blur(5px);
+  -moz-filter: blur(5px);
+  -o-filter: blur(5px);
+  -ms-filter: blur(5px);
+  filter: blur(5px) ;
+  background-position: center center; 
+  background-size: contain;
+  filter: brightness(50%) blur(5px);
+  
+  
+  
+}
+ .about-image{
+  display: flex;
+  justify-content: center;
+ }
+ .about-image img{
+  
+  z-index: 9999;
+  margin-left: 20px;
+  margin-right: 20px;
+  width: 70rem;
+  height: 40rem;
+  object-fit: fill;
+}
+.all-manga-content p{
+  padding: 0;
+  display: block;
+}
+.manga-center{
+  display: grid;
+  justify-content: center;
+  background-color: #000000;
+
+
+
+
+}
+.manga-content {
+  color: white;
+  width: 1105px;
+  padding: 2rem 0;
+  display: grid;
+  justify-content:start;
+  background-color: #000000;
+  
+  
+}
+.manga-content p{
+  display: block;
+  padding: 0;
+}
+
+.button-80 {
+  --color: #ffd000;
+  font-family: inherit;
+  display: inline-block;
+  align-items: center;
+  width: 8em;
+  height: 2.6em;
+  line-height: 2.5em;
+  position: relative;
+  overflow: hidden;
+  transition: color .5s;
+  z-index: 1;
+  font-size: 17px;
+  border-radius: 6px;
+  font-weight: 500;
+  color: var(--color);
+  border: solid 1px #ffd000;
+ }
+ 
+ .button-80:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  background: #ffd000;
+  height: 150px;
+  width: 200px;
+  border-radius: 50%;
+
+
+ }
+ 
+ .button-80:hover {
+  color: #000000;
+ }
+ 
+ .button-80:before {
+  top: 100%;
+  left: 100%;
+  transition: all .7s;
+ }
+ 
+ .button-80:hover:before {
+  top: -30px;
+  left: -30px;
+ }
+ 
+ .button-80:active:before {
+  background: #ffd000;
+  transition: background 0s;
  }

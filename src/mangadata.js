@@ -3,9 +3,22 @@ const MANGADATA = [
         id:'1',
         manga_name : 'Attack On Titan',
         img : "./manga posters/aot.jpg",
+        img_2 : "./manga posters/aot about.jpg",
         chapters: [
             {
                 id:'1',
+                path:'./manga pdf/Attack On Titan - Chapter 001 .pdf'
+            },
+            {
+                id:'2',
+                path:''
+            },
+            {
+                id:'3',
+                path:''
+            },
+            {
+                id:'4',
                 path:''
             }
         ]
@@ -14,6 +27,8 @@ const MANGADATA = [
         id:'2',
         manga_name : 'One Piece',
         img : "./manga posters/luffy.jpg",
+        img_2 : './manga posters/one piece about.jpeg',
+
         chapters: [
             {
                 id:'1',
@@ -25,6 +40,8 @@ const MANGADATA = [
         id:'3',
         manga_name : 'One punch man',
         img : "./manga posters/onepunchman.png",
+        img_2 : './manga posters/opm about.jpg',
+
         chapters: [
             {
                 id:'1',
@@ -36,6 +53,8 @@ const MANGADATA = [
         id:'4',
         manga_name : 'Death Note',
         img : "./manga posters/Death Note.jpg",
+        img_2 : './manga posters/death note about.jpg',
+
         chapters: [
             {
                 id:'1',

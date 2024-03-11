@@ -8,7 +8,8 @@ import { QUESTIONS } from '../components/questions';
 import { Link } from 'react-router-dom';
 
 
-export const HOME = ({mangadata}) => {
+export const HOME = ({mangadata,id}) => {
+  console.log(id);
   return (
     <div>
         <NAVBAR />

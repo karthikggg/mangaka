@@ -1,4 +1,6 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
+import { SINGLEMANGA } from '../pages/singlemanga'
 
 export const ALLMANGAPANEL = ({mangadata, targetmanga}) => {
   return (
@@ -12,10 +14,14 @@ export const ALLMANGAPANEL = ({mangadata, targetmanga}) => {
           <div className="manga-map">
             {mangadata.map((manga, index)=>{
               return(
-                <div key={manga.id} onClick={()=>targetmanga(manga.id)} className="single-manga">
+                <div>
+                  <Link to={'/singlemanga'}>
+                  <div key={manga.id} onClick={()=>targetmanga(manga.id)} className="single-manga">
                   <img src={manga.img} alt="" />
                   <p>{manga.manga_name}</p>
                   <span>English</span>
+                </div>
+                </Link>
                 </div>
               )
             })}
