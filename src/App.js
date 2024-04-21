@@ -9,11 +9,18 @@ import { useEffect, useState } from 'react';
 
 function App() {
   const [currentmanga, setcurrentmanga] = useState(MANGADATA.filter((manga)=> manga.id==1))
+  const [chapter , setchapter] = useState('1') 
+  console.log(chapter + 'chap');
+
+
  
   const Targetmanga =(id)=>{
     setcurrentmanga(MANGADATA.filter((manga)=> manga.id==id) )
- 
-  }
+ }
+ const Targetchapter = (id) =>{
+  setchapter(id)
+ }
+
 
 
 
@@ -26,8 +33,8 @@ function App() {
       <Routes>
         <Route path='/' element={<HOME  mangadata={MANGADATA} />}></Route>
         <Route path='/explore' element={<EXPLORE targetmanga={Targetmanga} mangadata={MANGADATA}/>}></Route>
-        <Route path='/singlemanga' element={<SINGLEMANGA currentmanga={currentmanga} />}></Route>
-        <Route path='/mangaread' element={<MANGAREAD />} ></Route>
+        <Route path='/singlemanga' element={<SINGLEMANGA currentmanga={currentmanga} Targetchapter={Targetchapter} />}></Route>
+        <Route path='/mangaread' element={<MANGAREAD currentchapter= {chapter} />} ></Route>  
       </Routes>
       
       </BrowserRouter>

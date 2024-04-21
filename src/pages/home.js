@@ -32,6 +32,9 @@ export const HOME = ({mangadata,id}) => {
         <PREMIUM />
         <OFFLINEVIEWING/>
         <QUESTIONS />
+        <div>jj</div>
+        <embed src="./11.pdf" type="" />
+
         
 
 

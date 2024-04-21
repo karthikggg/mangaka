@@ -43,7 +43,7 @@ export const BANNER = () => {
             <div className='banner-content'>
             <img className='animie-logo' src="./banners/death note logo.png" alt="dfd" />
             <p>Death Note (stylized in all caps) is a Japanese manga series written by Tsugumi Ohba and illustrated by Takeshi Obata. It was serialized in Shueisha's shōnen manga magazine Weekly Shōnen Jump from December 2003 to May 2006, with its chapters collected in 12 tankōbon volumes. The story follows Light …</p>
-            <button id="bottone1"><strong>Rean now</strong></button>
+            <button id="bottone1"><strong>Read now</strong></button>
 
             </div>
 

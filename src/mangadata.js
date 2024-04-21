@@ -7,11 +7,11 @@ const MANGADATA = [
         chapters: [
             {
                 id:'1',
-                path:'./manga pdf/Attack On Titan - Chapter 001 .pdf'
+                path:'/manga pdf/1.pdf'
             },
             {
                 id:'2',
-                path:''
+                path:'/manga pdf/2.pdf'
             },
             {
                 id:'3',
@@ -19,6 +19,10 @@ const MANGADATA = [
             },
             {
                 id:'4',
+                path:''
+            },
+            {
+                id:'5',
                 path:''
             }
         ]

@@ -14,12 +14,12 @@ export const ALLMANGAPANEL = ({mangadata, targetmanga}) => {
           <div className="manga-map">
             {mangadata.map((manga, index)=>{
               return(
-                <div>
-                  <Link to={'/singlemanga'}>
+                <div key={index}>
+                  <Link className='Link' to={'/singlemanga'}>
                   <div key={manga.id} onClick={()=>targetmanga(manga.id)} className="single-manga">
                   <img src={manga.img} alt="" />
                   <p>{manga.manga_name}</p>
-                  <span>English</span>
+                  <span style={{fontWeight:'100'}}>English</span>
                 </div>
                 </Link>
                 </div>

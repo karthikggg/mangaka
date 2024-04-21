@@ -272,8 +272,10 @@
  /* all manga panel */
 
  .section{
-  background-color: #070F2B;
+  background-color: #000000;
   color: white;
+  justify-content: space-around;
+  padding-top: 2rem;
   
   display: grid;
  }
@@ -315,41 +317,41 @@
   display: flex;
   justify-content: center;
  }
+/*image */
+ .about-manga-image-div{
+  background-color: #302d2d;
+  display: grid;
+  justify-content: center;
+  background-size:cover;
+  background-blend-mode:soft-light;
+}
 
- /* about manga image */
+/* about-manga-pagew*/
+.about-manga-image-div::after {
+ 
+  filter: invert(80%);
 
- .bg-image {
-  position: absolute;
-  left: 0;
-  right: 0;
-  z-index: 1;
+  background-size: cover;
+  background-position: center;
+  filter: blur(2px);
+  opacity: 0.9; /* Adjust the opacity as needed */
+}
+
+
+
+
+.about-image img{
   display: block;
-  height:40rem;
-  width: 100%;
-  -webkit-filter: blur(5px);
-  -moz-filter: blur(5px);
-  -o-filter: blur(5px);
-  -ms-filter: blur(5px);
-  filter: blur(5px) ;
-  background-position: center center; 
-  background-size: contain;
-  filter: brightness(50%) blur(5px);
-  
-  
+  width: 50vw;
+  height: auto;
   
 }
- .about-image{
+
+
+.all-manga-content{
+  background-color: #000000;
   display: flex;
   justify-content: center;
- }
- .about-image img{
-  
-  z-index: 9999;
-  margin-left: 20px;
-  margin-right: 20px;
-  width: 70rem;
-  height: 40rem;
-  object-fit: fill;
 }
 .all-manga-content p{
   padding: 0;
@@ -365,8 +367,7 @@
 
 }
 .manga-content {
-  color: white;
-  width: 1105px;
+  color: rgb(255, 255, 255);
   padding: 2rem 0;
   display: grid;
   justify-content:start;
@@ -374,10 +375,7 @@
   
   
 }
-.manga-content p{
-  display: block;
-  padding: 0;
-}
+
 
 .button-80 {
   --color: #ffd000;
@@ -429,3 +427,45 @@
   background: #ffd000;
   transition: background 0s;
  }
+.Link{
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 1.3rem;
+  font-weight: 500;
+
+  
+}
+.Link:hover{
+  background-color: #333333;
+  color: #cdcdcd;
+}
+.L{
+  color: white;
+  text-decoration: none;
+ 
+}
+.chap{
+  padding: .7rem 3rem;
+  background-color: #888888;
+  margin: 1px;
+  display: flex;
+  align-items: center;
+  border-radius: 8px;
+  justify-content: center;
+}
+.chap:hover{
+  background-color: #000000;
+}
+
+.side-image{
+  display: flex;
+  justify-content: space-around;
+  background-color: #000000;
+
+}
+.side-image img{
+ width: 20vw;
+ height: 30vw;
+ object-fit: cover;
+ padding-top: 3rem;
+}
