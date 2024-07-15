@@ -9,7 +9,7 @@ export const MANGAREAD = ({currentchapter}) => {
     return (
       <div>
         <div>
-          <embed src={`/manga pdf/${currentchapter}.pdf`} height={'670'} width={'1500'} />
+          <embed src={`/manga pdf/${currentchapter}.pdf`} height={'759vh'} width={'1600vw'} />
         </div>
       </div>
     );
