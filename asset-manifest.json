@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/karthikggg/mangaka/static/css/main.2a9d3d8f.css",
-    "main.js": "/karthikggg/mangaka/static/js/main.12d07e99.js",
-    "static/js/453.7846738c.chunk.js": "/karthikggg/mangaka/static/js/453.7846738c.chunk.js",
-    "static/media/chibi-luffy.png": "/karthikggg/mangaka/static/media/chibi-luffy.03b4a9dc21db5ba350a5.png",
-    "static/media/offline.jpg": "/karthikggg/mangaka/static/media/offline.189c512b20986ac4429d.jpg",
-    "static/media/aot3 banner.jpg": "/karthikggg/mangaka/static/media/aot3 banner.c88540645c1218bf546e.jpg",
-    "static/media/opm3.jpg": "/karthikggg/mangaka/static/media/opm3.2ee6163e1288cbdac039.jpg",
-    "static/media/deathnote3.jpg": "/karthikggg/mangaka/static/media/deathnote3.050fbb8f1d696f7f79b0.jpg",
-    "static/media/op3.jpg": "/karthikggg/mangaka/static/media/op3.4d470b0cb87e45f36cc8.jpg",
-    "index.html": "/karthikggg/mangaka/index.html",
-    "main.2a9d3d8f.css.map": "/karthikggg/mangaka/static/css/main.2a9d3d8f.css.map",
-    "main.12d07e99.js.map": "/karthikggg/mangaka/static/js/main.12d07e99.js.map",
-    "453.7846738c.chunk.js.map": "/karthikggg/mangaka/static/js/453.7846738c.chunk.js.map"
+    "main.css": "/mangaka/static/css/main.b48a2a2d.css",
+    "main.js": "/mangaka/static/js/main.9c0b23a1.js",
+    "static/js/453.7846738c.chunk.js": "/mangaka/static/js/453.7846738c.chunk.js",
+    "static/media/chibi-luffy.png": "/mangaka/static/media/chibi-luffy.03b4a9dc21db5ba350a5.png",
+    "static/media/offline.jpg": "/mangaka/static/media/offline.189c512b20986ac4429d.jpg",
+    "static/media/aot3 banner.jpg": "/mangaka/static/media/aot3 banner.c88540645c1218bf546e.jpg",
+    "static/media/opm3.jpg": "/mangaka/static/media/opm3.2ee6163e1288cbdac039.jpg",
+    "static/media/deathnote3.jpg": "/mangaka/static/media/deathnote3.050fbb8f1d696f7f79b0.jpg",
+    "static/media/op3.jpg": "/mangaka/static/media/op3.4d470b0cb87e45f36cc8.jpg",
+    "index.html": "/mangaka/index.html",
+    "main.b48a2a2d.css.map": "/mangaka/static/css/main.b48a2a2d.css.map",
+    "main.9c0b23a1.js.map": "/mangaka/static/js/main.9c0b23a1.js.map",
+    "453.7846738c.chunk.js.map": "/mangaka/static/js/453.7846738c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2a9d3d8f.css",
-    "static/js/main.12d07e99.js"
+    "static/css/main.b48a2a2d.css",
+    "static/js/main.9c0b23a1.js"
   ]
 }
